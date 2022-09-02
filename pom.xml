@@ -10,9 +10,9 @@
 	</parent>
 
 	<groupId>com.golden.raspberry.awards</groupId>
-	<artifactId>golden-raspberry-awards</artifactId>
+	<artifactId>golden_raspberry_awards</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>golden-raspberry-awards</name>
+	<name>golden_raspberry_awards</name>
 	<description>Golden Raspberry Awards</description>
 
 
