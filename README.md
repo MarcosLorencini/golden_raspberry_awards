@@ -3,8 +3,8 @@
 
 ## Subir a aplicação utilizando o Docker
 	Utilize os seguintes comandos na pasta raiz do projeto:
-	Faz o build(gera o .jar) da aplicação para gerar a imagem: docker build -t golden-raspberry-awards .
-	Gera o container com base na imagem gerada: docker run -p 8080:8080 golden-raspberry-awards
+	Faz o build(gera o .jar) da aplicação para gerar a imagem: docker build -t golden_raspberry_awards .
+	Gera o container com base na imagem gerada: docker run -p 8080:8080 golden_raspberry_awards
 	Acessar: http://localhost:8080/swagger-ui.html
 
 ## Subir a aplicação local utilizando H2 banco de dados em memória
