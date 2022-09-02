@@ -11,6 +11,6 @@ RUN mvn -f /home/app/pom.xml clean package
 # Package stage
 #
 FROM openjdk:11-jre-slim
-COPY --from=build /home/app/target/golden_raspberry_awards-0.0.1-SNAPSHOT.jar /usr/local/lib/golden_raspberry_awards.jar
+COPY --from=build /home/app/target/golden_raspberry_awards-0.0.1-SNAPSHOT.jar /usr/local/lib/golden-raspberry-awards.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","/usr/local/lib/golden_raspberry_awards.jar"]
+ENTRYPOINT ["java","-jar","/usr/local/lib/golden-raspberry-awards.jar"]
